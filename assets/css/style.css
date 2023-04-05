@@ -1,0 +1,45 @@
+/*Estilos da pagina index.html*/
+.center {
+ text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 20px;
+
+}
+
+#menu li a {
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+}
+
+#menu li a:hover {
+    color: gray;
+}
+
+/*Estilos da pagina contact.html*/
+.center {
+    text-align: center;
+   }
+
+   #menu li {
+    display: inline;
+    padding: 20px;
+}
+
+.p-35 {
+    padding: 35px;
+}
+
+.mb-50 {
+    margin-bottom: 200px;
+}
