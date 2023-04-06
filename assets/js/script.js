@@ -41,6 +41,7 @@ if (subject.value.length >= 100) {
     txtsubject.innerHTML = "Digite no máximo 100 caracteres"
     txtsubject.style.color = 'red'
     txtsubject.style.display = 'block'
+    subjectOk = false
 } else {
     txtsubject.style.display = 'none'
     subjectOk = true
